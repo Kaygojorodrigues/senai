@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+body{
+    background-image: url(https://i.pinimg.com/originals/bb/e6/ff/bbe6ff62a6228a157c1f1530438184fa.png);
+}
+h1{
+    font-family: Poetsen One;
+    color:thistle;
+    font-size: 100px;
+    text-align: center;
+    background-color:indigo;
+    border-radius: 100px;
+}
+label{
+    font-family:Poetsen One;
+    font-size: 100;
+    color:indigo;
+    text-align: center;
+}
+input{
+    font-family:Poetsen One;  
+    text-align: center;
+}
+
+form {
+    width: 900px;
+    text-align: center;
+    margin: 0 auto;
+}
+a{
+    background-color: indigo;
+    border-radius: 100px;
+    padding: 20px;
+    color: thistle;
+    text-decoration: none;
+    font-family:Poetsen One ;
+    font-size: 10px;
+    text-align: center;
+}
+div{
+    text-align: center;
+}
+img{
+    border-radius: 100px;
+}

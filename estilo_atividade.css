@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+body{
+    background-image: url(https://cloudfront-us-east-1.images.arcpublishing.com/metroworldnews/WWN3LGHAUFELDJA3TBW5IAV5HA.jpg);
+}
+h1{
+    color:rgb(29, 29, 99);
+    text-align: center;
+    background-color:lightblue;
+    padding: 50px;
+    border-radius: 50px;
+    font-family:Poetsen One ;
+    font-size: 50px;
+}
+p{
+    font-family:Poetsen One ;
+    color:rgb(21, 21, 90);
+    text-align: center;
+    background-color:lightblue;
+    padding: 50px;
+    border-radius: 50px;
+    margin-top: 200px;
+    font-size: 50px;
+}
