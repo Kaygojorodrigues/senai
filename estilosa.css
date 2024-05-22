@@ -26,3 +26,6 @@ table{
     gap: 32px;
     color:rgb(168, 28, 56);
 }
+div{
+    display: flex;
+}
