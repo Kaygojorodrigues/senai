@@ -1,0 +1,57 @@
+div{
+    align-items: center;
+    display: flex;
+    border: 5px solid indigo;
+    width: 250px;
+    height: 250px;
+    border-radius: 50px;
+    color: darkslateblue;
+    background-color: oldlace;
+    gap: 55px;
+}
+
+#miranha{
+    align-items:stretch;
+    display: flex;
+    border: 5px solid indigo;
+    width: 250px;
+    height: 90px;
+    border-radius: 50px;
+    color: darkslateblue;
+    gap: 55px;
+}
+#poblema{
+    align-items: flex-start;
+    display: flex;
+    border: 5px solid indigo;
+    width: 250px;
+    height: 250px;
+    border-radius: 50px;
+    color: darkslateblue;
+    gap: 55px;
+}
+#corroso{
+    align-items: flex-end;
+    display: flex;
+    border: 5px solid indigo;
+    width: 250px;
+    height: 150px;
+    border-radius: 20%;
+    color: rgb(62, 51, 131);
+    gap: 55px;
+}
+#palagrafo{
+    align-items: baseline;
+    display: flex;
+    border: 5px solid indigo;
+    width: 250px;
+    height: 100px;
+    border-radius: 50px;
+    color: darkslateblue;
+    gap: 55px;
+}
+body{
+    display: flex;
+    background-color: rgb(125, 108, 160);
+    gap: 55px;
+}
