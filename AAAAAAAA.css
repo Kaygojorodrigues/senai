@@ -1,0 +1,17 @@
+body{
+    background-color:rgb(231, 211, 252);
+}
+p{
+    color: ghostwhite;
+}
+@media(max-width: 500px){
+    body{
+        background-color: rgb(219, 219, 245);
+    }
+    p{
+        color: indigo;
+    }
+}
+.bg-light{
+    background-color:mediumpurple!important;
+}
