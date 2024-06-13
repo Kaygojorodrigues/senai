@@ -8,9 +8,16 @@ if(meudinheiro >= 50){
 alert("Aproveite a promoção!")
 console.log(meudinheiro)
 }
+
+else if(meudinheiro < 50){
+    alert('Saldo insufuciente para a promoção')
+}
+
 else{
     alert("Sem promoção disponível")
 }
+
+
 
 
 
