@@ -14,11 +14,7 @@ header{
     padding-top: 20px;
     background-color: rgb(6, 6, 139);
 }
-nav{
-    display: flex;
-    gap: 20px;
-    align-items: center;
-}
+
 a{
     text-decoration: none;
     color: white;
