@@ -1,0 +1,21 @@
+   #area{
+    width: 200px;
+    height: 200px;
+    border: 5px solid white;
+    text-align: center;
+    border-radius: 70px;
+    background-color:mediumpurple ;
+    
+   }
+   div{
+        padding-top: 20px;
+        color:aliceblue;
+   }
+   body{
+   background-color:rebeccapurple;
+   }
+   button{
+    border-radius: 10px;
+    background-color:mediumpurple;
+    color:aliceblue
+   }

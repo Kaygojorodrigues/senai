@@ -1,0 +1,17 @@
+body{
+overflow: hidden;
+background-image: url(https://i.pinimg.com/originals/8b/7d/35/8b7d3592983e52d12cf252213d92ae5f.gif);
+background-repeat: no-repeat;
+background-size: cover;
+}
+#elemento{
+    position: relative;
+    left: 0;
+    top: 70px;
+    transition:left 0.5s ease;
+    
+}
+
+.invertido{
+    transform: scaleX(-1);
+}
