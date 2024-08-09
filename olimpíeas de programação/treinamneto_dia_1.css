@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Gupter:wght@400;500;700&display=swap');
+
+body{
+    background-color: rgb(83, 90, 97);
+}
+
+a{
+    padding-left: 200px;
+    padding-right: 200px;
+    width: 100px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    font-family: Gupter;
+}
+#cabecario{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 0px;
+    background-color: black;
+    border:1px solid white;
+}
+#foto1{
+    padding-left: 380px;
+}
+
+#foto2{
+    padding-left: 550px;
+}
+h1{
+    text-align: center;
+    color:white;
+    font-family:Gupter ;
+}
+h2{
+    text-align: center;
+    color:white;
+    font-family:Gupter ;
+}
+footer{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 0px;
+    background-color: black;
+}
