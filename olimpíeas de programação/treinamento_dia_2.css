@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    font-family:'Times New Roman', Times, serif;
+}
+header{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    background-color: rgb(124, 88, 150);
+    padding: 20px 60px;
+}
+.menu ul{
+    display: flex;
+    gap: 42px;
+}
+.menu ul li a{
+    color: white;
+}
+.menu ul li a:hover{
+        color: hotpink;
+}
+.menu ul li:hover{
+        background-color: rgb(68, 42, 87);
+}
+
+.menucelular{
+    display: none;
+}
+
+@media (max-width: 767px){
+       header{
+        background-color: pink;
+       }
+       .menu{
+         height: 400px;
+       }
+       .menucelular .linha{
+            width: 26px;
+            height: 3px;
+            background-color: white;
+            margin: 6px;
+       }
+       .menu ul{
+        display: flex;
+        flex-direction: column;
+        
+       }
+       .menucelular{
+        display: block;
+        cursor: pointer;
+       }
+
+}
