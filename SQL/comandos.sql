@@ -7,8 +7,8 @@ CREATE DATABASE senai;
 
 CREATE TABLE Alunos(
     id INT AUTO_INCREMENT PRIMARY KEY,
-    nome VARCSHAR(255) NOT NULL,
-    email VARCSHAR(255)
+    nome VARCHAR(255) NOT NULL,
+    email VARCHAR(255)
 )
 
 /*Alterando o campo de uma tabela*/
@@ -35,3 +35,10 @@ INSERT INTO produtos
 UPDATE produtos
 SET formula = 'hidratante', cor 'roxo'
 WHERE id = 1;
+
+UPDATE Clientes
+SET Nome = 'CLIENTES VIP'
+WHERE Idade > 30;
+
+/*Comando para deletar um campo*/
+DELETE FROM alunos WHERE id = 1;
