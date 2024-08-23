@@ -42,3 +42,10 @@ WHERE Idade > 30;
 
 /*Comando para deletar um campo*/
 DELETE FROM alunos WHERE id = 1;
+
+/*Ir atrás de um campo*/
+SELECT obra FROM personagem_favorito WHERE nome = 'jujutsu';
+/*Nesse caso, tem o operador lógico AND (TEM QUE TÁ ESCRITO CERTINHO IGUAL NA LISTA)*/
+SELECT * FROM personagem_favorito WHERE nome = 'Nobara (OBVIO)' AND obra = 'Jujutsu';
+/*Nesse caso, o OR foi usado*/
+SELECT * FROM personagem_favorito WHERE nome = 'Nobara (OBVIO)' AND obra = 'Jujutsu';
