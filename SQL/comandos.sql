@@ -45,7 +45,26 @@ DELETE FROM alunos WHERE id = 1;
 
 /*Ir atrás de um campo*/
 SELECT obra FROM personagem_favorito WHERE nome = 'jujutsu';
+
 /*Nesse caso, tem o operador lógico AND (TEM QUE TÁ ESCRITO CERTINHO IGUAL NA LISTA)*/
+
 SELECT * FROM personagem_favorito WHERE nome = 'Nobara (OBVIO)' AND obra = 'Jujutsu';
+
 /*Nesse caso, o OR foi usado*/
+
 SELECT * FROM personagem_favorito WHERE nome = 'Nobara (OBVIO)' AND obra = 'Jujutsu';
+
+/*NOTE é usado para negar uma condição*/
+
+SELECT * FROM usuarios WHERE NOTE nome = "teste2"
+
+/*
+- ORDER BY serve para organizar os resultados de uma consulta em ordem crescente (ASC) ou decrescente (DESC) com base em uma ou mais colunas;
+- DESC é um termo usado com o ORDER BY para indicar que a ordenaçõ deve ser em ordem decrescente.
+*/
+ 
+ SELECT nome FROM usuarios ORDER BY nome DESC
+
+/*se colocar o ORDER BY sozinho ele automaticamente coloca em ordem crescente*/
+
+
