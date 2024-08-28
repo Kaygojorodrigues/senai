@@ -68,3 +68,10 @@ SELECT * FROM usuarios WHERE NOTE nome = "teste2"
 /*se colocar o ORDER BY sozinho ele automaticamente coloca em ordem crescente*/
 
 
+/*chave estrangeira*/
+CREATE TABLE usuarios ( id INT AUTO_INCREMENT PRIMARY KEY,
+ nome VARCHAR(255) NOT NULL,
+ endereco_id INT,
+ FOREIGN KEY(endereco_id)REFERENCES endereco(endereco_id) 
+ );
+
