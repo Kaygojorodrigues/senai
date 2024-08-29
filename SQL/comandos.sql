@@ -5,11 +5,22 @@ CREATE DATABASE senai;
 
 /*Comandos para criar tabela*/
 
+CREATE TABLE pedidos ( 
+    id INT AUTO_INCREMENT PRIMARY KEY,
+ 	produtos VARCHAR(255) NOT NULL,
+  	id_cliente INT(255)
+);
+
 CREATE TABLE Alunos(
     id INT AUTO_INCREMENT PRIMARY KEY,
     nome VARCHAR(255) NOT NULL,
     email VARCHAR(255)
-)
+);
+
+/*criar o campo de uma tabela, na primeira aspas coloca o nome(COMO TA NO EXEMPLO), na segunda o endereço(COMO TA NO EXEMPLO), e se for colocar outra pessoa, é outra linha*/
+INSERT INTO `clientes`(`nome`, `endereco`) 
+VALUES 
+('','')
 
 /*Alterando o campo de uma tabela*/
 
@@ -74,4 +85,21 @@ CREATE TABLE usuarios ( id INT AUTO_INCREMENT PRIMARY KEY,
  endereco_id INT,
  FOREIGN KEY(endereco_id)REFERENCES endereco(endereco_id) 
  );
+/*o segundo id é a tabela a qual estamos fazendo referencia, FOREIGN KEY é oq não pertence a tabela, e REFERENCES é a tabela a qual fazemos referência*/
+CREATE TABLE pedidos ( 
+    id INT AUTO_INCREMENT PRIMARY KEY,
+ 	produtos VARCHAR(255) NOT NULL,
+  	id_cliente INT,
+ 	FOREIGN KEY(id_cliente)REFERENCES clientes(id) 
+ );
 
+
+
+
+ /*????????*/
+
+ SELECT clientes.nome, pedidos.produtos FROM clientes INNER JOIN pedidos ON clientes.id = pedidos.id_cliente WHERE produtos = "Playset casa da Barbie";
+
+ /*ALERARA UMA COISA EM DUAS TABELAS AO MESMO TEMPO*/
+
+ CREATE TRIGGER nome_do_trigger
