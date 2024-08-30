@@ -3,6 +3,10 @@
     margin: 0;
     list-style: none;
     text-decoration: none;
+
+}
+h1{
+    color: white;
 }
 body{
     font-family:'Times New Roman', Times, serif;
@@ -11,21 +15,28 @@ header{
     display: flex;
     justify-content:space-around;
     align-items: center;
-    background-color: rgb(124, 88, 150);
+    background-color: hotpink;
     padding: 20px 60px;
 }
 .menu ul{
+
     display: flex;
     gap: 42px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 50px;
+    margin: 70px auto;
 }
 .menu ul li a{
     color: white;
+    font-size: 22px;
 }
 .menu ul li a:hover{
-        color: hotpink;
+        color: white;
 }
 .menu ul li:hover{
-        background-color: rgb(68, 42, 87);
+        background-color: hotpink;
 }
 
 .menucelular{
@@ -36,20 +47,38 @@ header{
        header{
         background-color: pink;
        }
-       .menu{
-         height: 400px;
+
+       .menu.adicionar_Classe_Ao_Clicar{
+        height: 400px;
+        transition: 1s;
        }
+       
+       .menu{
+      height: 0;
+      position: absolute;
+      top: 77px;
+      left: 0;
+      width: 100%;
+      background-color: pink;
+      transition: 1.5s;
+       }
+
+
+       .menu ul{
+       
+        
+       }
+
        .menucelular .linha{
             width: 26px;
             height: 3px;
             background-color: white;
-            margin: 6px;
+            margin: 6px 0;
+            background-color: white;
+            transition: all 0.3s ease;
+
        }
-       .menu ul{
-        display: flex;
-        flex-direction: column;
-        
-       }
+       
        .menucelular{
         display: block;
         cursor: pointer;
