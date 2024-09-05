@@ -6,7 +6,7 @@
     color: white;
     padding-left: 100px;
     font-size: 18px;
-    b
+   
  }
 
 span{
@@ -21,20 +21,132 @@ span{
 #grupo{
     padding-bottom: 10px;
 }
+p{
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 650px;
+    color: white;
+    padding-left: 90px;
+    padding-right: 90px;
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
 #corpo{
-    background-color: rgb(140, 208, 235);
     text-align: center;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    font-size: 50px;
+    position: relative;
+    bottom: 72px;
+    padding-right: 40px;
+    color: white;
+    background: rgb(25,174,191);
+    background: linear-gradient(90deg, rgba(25,174,191,1) 0%, rgba(13,118,168,1) 35%, rgba(178,217,233,1) 100%);
+}
+
+
+footer{
+    background-color: rgb(231, 231, 231);
+    color: white;
     height: 400px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+
+}
+.as{
+   color: black;
+
+   
+}
+#logo{
+    font-family: Archivo Black;
+    color: black;
+    padding-left: 50px;
+    padding-right:50px ;
+    font-size: 18px;
+}
+#consideracoes{
+    color: black;
+    position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 50px;
     position: relative;
-    bottom: 73px;
-    padding-right: 40px;
+    bottom: 20px;
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+.fotos{
+    bottom: 650px;
+    width: 500px;
+    position: relative;
+    padding-left: 80px;
+    border-radius: 50px;
+}
+
+.as:hover{
     color: white;
 }
-#espaco{
-     
+
+button{
+        padding: 10px 8px;
+        border: none;
+        cursor: pointer;
+        border-radius: 6px;
+        background-color: rgb(0, 162, 255);
+        color: #ffffff;
+        position: absolute;
+        margin-top: -230px;
+        right: 900px;
+        
+        
+       
+    }
+    button:hover{
+        background-color: rgb(25, 0, 255);
+        transition: 0.2s;
+    }
+#botao{
+    color: white;
+    text-decoration: none;
+    
+}
+#video1{
+   margin-right: 60px;
+   margin-left: 50px;
+   position: absolute;
+    margin-top: -90px;
+    right: 1250px;
+}
+#video2{
+    margin-left: 60px;
+    position: absolute;
+    margin-top: -90px;
+    right: 100px;
+}
+#video3{
+    position: absolute;
+    margin-top: -90px;
+    right: 700px;
+}
+#cadastro{
+    text-align: center;
+}
+#login{
+   margin-left: 1600px;
+   font-size: 20px;
+   top: 30px;
+   color: white;
+   border: none;
+
+}
+a{
+    text-decoration: none ;
+    margin-bottom: 20px;
 }
