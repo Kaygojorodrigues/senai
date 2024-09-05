@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Dancing+Script:wght@400..700&display=swap');
+ h1{
+    font-family: Archivo Black;
+    background-color: rgb(56, 108, 168);
+    color: white;
+    padding-left: 100px;
+    font-size: 18px;
+    b
+ }
+
+span{
+   font-family: Archivo Black;
+   font-size: 10px;
+
+}
+#p{
+    font-family: Dancing Script;
+    font-size: 19px;
+}
+#grupo{
+    padding-bottom: 10px;
+}
+#corpo{
+    background-color: rgb(140, 208, 235);
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    position: relative;
+    bottom: 73px;
+    padding-right: 40px;
+    color: white;
+}
+#espaco{
+     
+}
