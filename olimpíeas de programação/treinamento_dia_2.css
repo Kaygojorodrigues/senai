@@ -51,6 +51,8 @@ header{
        .menu.adicionar_Classe_Ao_Clicar{
         height: 400px;
         transition: 1s;
+        opacity: 1;
+        pointer-events: all;
        }
        
        .menu{
@@ -61,6 +63,7 @@ header{
       width: 100%;
       background-color: pink;
       transition: 1.5s;
+      opacity: 0;
        }
 
 
