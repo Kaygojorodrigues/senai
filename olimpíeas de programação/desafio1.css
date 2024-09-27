@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    background-color: white;
+}
+h2{
+    background-color: #1F5EAF;
+    color: white;
+    font-family: Montserrat;
+    border-radius: 9px;
+    border: #1F5EAF;
+    font-size: 20px;
+    padding: 10px;
+}
+p{
+    font-family: Montserrat;
+}
+li{
+    font-family: Montserrat; 
+}
+label{
+    font-family: Montserrat;  
+    color: #1F5EAF ;
+    padding-left: 400px;
+    font-weight: bold;
+}
+div{
+    
+}
